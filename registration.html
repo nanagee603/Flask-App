@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Registration</title>
+</head>
+<body>
+	<h1>Employee Registration</h1>
+	<form method="POST" action="/registration">
+		<label for="empid">Employee ID:</label><br>
+		<input type="text" id="empid" name="empid" required><br><br>
+
+		<label for="empname">Employee Name:</label><br>
+		<input type="text" id="empname" name="empname" required><br><br>
+
+		<label for="gender">Gender:</label><br>
+		<input type="radio" id="male" name="gender" value="male" checked>
+  		<label for="male">Male</label><br>
+  		<input type="radio" id="female" name="gender" value="female">
+  		<label for="female">Female</label><br><br>
+
+		<label for="phone">Phone Number:</label><br>
+		<input type="tel" id="phone" name="phone" required><br><br>
+
+		<label for="bdate">Birth Date:</label><br>
+		<input type="date" id="bdate" name="bdate" required><br><br>
+
+		<input type="submit" value="Register">
+	</form>
+	<br>
+	<a href="/">Home</a>
+</body>
+</html>
